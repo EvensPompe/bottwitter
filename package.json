@@ -1,0 +1,15 @@
+{
+  "name": "bottwitter",
+  "version": "1.0.0",
+  "description": "Un bot Twitter en Typescript \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DNodeJS et Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u001bvhttps://github.com/EvensPompe/bottwitter.git"
+  },
+  "author": "Evens Pompe",
+  "license": "ISC"
+}
