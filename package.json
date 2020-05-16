@@ -18,11 +18,12 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.4",
-    "twitter": "^1.7.1"
+    "puppeteer": "^3.0.4"
   },
   "devDependencies": {
-    "@types/twitter": "^1.7.0",
-    "typescript": "^3.9.2",
-    "concurrently": "^5.2.0"
+    "@types/puppeteer": "^2.1.0",
+    "concurrently": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.9.2"
   }
 }
