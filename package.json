@@ -4,6 +4,10 @@
   "description": "Un bot Twitter en Typescript \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DNodeJS et Typescript",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --outDir dist -w",
+    "watch": "concurrently -k -n \"Node,TypeScript\" -p \"[{name}]\" -c \"blue,red\" \"npm:watch-node\" \"npm:watch-ts\"",
+    "watch-node": "nodemon ./dist/index.js",
+    "watch-ts": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,5 +15,14 @@
     "url": "\u001bvhttps://github.com/EvensPompe/bottwitter.git"
   },
   "author": "Evens Pompe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/twitter": "^1.7.0",
+    "typescript": "^3.9.2",
+    "concurrently": "^5.2.0"
+  }
 }
