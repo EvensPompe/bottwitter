@@ -17,10 +17,12 @@
   "author": "Evens Pompe",
   "license": "ISC",
   "dependencies": {
+    "mysql2": "^2.2.5",
     "nodemon": "^2.0.4",
     "puppeteer": "^3.0.4"
   },
   "devDependencies": {
+    "@types/mysql2": "github:types/mysql2",
     "@types/puppeteer": "^2.1.0",
     "concurrently": "^5.2.0",
     "dotenv": "^8.2.0",
