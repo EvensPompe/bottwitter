@@ -11,10 +11,10 @@ Pour faire fonctionner correctement le bot, vous devez faire les actions suivant
 *2.* Dans le fichier __.env__, définir les valeurs suivantes:
 
 * __DB_USER__= "nom d'utlisateur SQL" (À préciser que vous devez mettre les privilèges **CREATE,SELECT,INSERT,DELETE,UPDATE** ),
-* __DB_HOST__= "localhost ou l'uri de la base de données",
+* __DB_HOST__= "localhost ou l'IP du server",
 * __DB_NAME__="nom de la base de données",
 * __DB_MDP__="mot de passe de l'utilisateur SQL".
 
 *3.* Installer les dépendances en utilisant la commande **"npm install"**.
 
-*4.* Lancer la commande **npm run watch** pour lancer le projet !
+*4.* Lancer la commande **"npm run watch"** pour lancer le projet !
